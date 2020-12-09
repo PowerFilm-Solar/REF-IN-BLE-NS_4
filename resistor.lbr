@@ -3700,7 +3700,10 @@ Source: VISHAY wscwsn.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG_PART#" value="" constant="no"/>
+<attribute name="PERCENTAGE" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="C0603K" package="C0603K">
@@ -4320,7 +4323,10 @@ Source: VISHAY wscwsn.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG_PART#" value="" constant="no"/>
+<attribute name="PERCENTAGE" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="R0805" package="R0805">
