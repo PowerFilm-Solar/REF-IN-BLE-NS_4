@@ -8531,9 +8531,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="G7" library="supply2" deviceset="PE" device="" value="GND"/>
 <part name="G8" library="supply2" deviceset="PE" device="" value="GND"/>
 <part name="G9" library="supply2" deviceset="PE" device="" value="GND"/>
-<part name="U$1" library="00_PF_Nordic" deviceset="L0603" device="" technology="V-10UH" value="10uH">
-<attribute name="MFG_PART#" value="L1007C101KPWST"/>
-</part>
+<part name="U$1" library="00_PF_Nordic" deviceset="L0603" device="" technology="V-10UH" value="10uH"/>
 <part name="R1" library="resistor" deviceset="R-US_" device="M0805"/>
 <part name="R2" library="resistor" deviceset="R-US_" device="M0805"/>
 <part name="R3" library="resistor" deviceset="R-US_" device="M0805"/>

@@ -6061,7 +6061,7 @@ Please make sure your boards conform to these design rules.
 <attribute name="VALUE" value="10uF" x="9.6" y="10.75" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U$1" library="00_PF_Nordic" package="L0603" value="10uH" x="4.15" y="15.75" rot="R90">
-<attribute name="MFG_PART#" value="L1007C101KPWST" x="4.15" y="15.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFG_PART#" value="LBR2012T100M" x="4.15" y="15.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" value="10uH" x="4.15" y="15.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PERCENTAGE" value="20%" x="4.15" y="15.75" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
