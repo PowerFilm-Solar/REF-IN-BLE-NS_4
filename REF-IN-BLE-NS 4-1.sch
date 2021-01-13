@@ -1057,8 +1057,8 @@
 <smd name="IN0" x="0.05" y="0.10625" dx="0.127" dy="0.127" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
 <smd name="IN1" x="0.05" y="3.64375" dx="0.127" dy="0.127" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
 <smd name="OUT" x="-0.9375" y="1.875" dx="0.127" dy="0.127" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
-<text x="-1.5125" y="2.1875" size="1.27" layer="21">1</text>
-<text x="-1.5125" y="0.15625" size="1.27" layer="21">0</text>
+<text x="-1.5125" y="2.1875" size="1.27" layer="21" font="vector">1</text>
+<text x="-1.5125" y="0.15625" size="1.27" layer="21" font="vector">0</text>
 <polygon width="0.127" layer="1">
 <vertex x="-0.05" y="0.3"/>
 <vertex x="0.15" y="0.3"/>
@@ -1252,8 +1252,7 @@
 <wire x1="20" y1="16.875" x2="26" y2="16.875" width="0.127" layer="21"/>
 <wire x1="-26" y1="16.875" x2="-20" y2="16.875" width="0.127" layer="21"/>
 <wire x1="-26" y1="-17" x2="-20" y2="-17" width="0.127" layer="21"/>
-<wire x1="23.25" y1="-12.125" x2="23.25" y2="-9.125" width="0.127" layer="21"/>
-<wire x1="23.125" y1="8.75" x2="23.125" y2="11.75" width="0.127" layer="21"/>
+<wire x1="23.25" y1="1.5" x2="23.25" y2="-1.5" width="0.127" layer="21"/>
 <wire x1="-18" y1="16.875" x2="-18" y2="13.875" width="0.127" layer="21"/>
 <wire x1="-18" y1="13.875" x2="-18" y2="11.875" width="0.127" layer="21"/>
 <wire x1="-18" y1="11.875" x2="-18" y2="8.875" width="0.127" layer="21"/>
@@ -1295,7 +1294,6 @@
 <wire x1="27" y1="-18.25" x2="-27" y2="-18.25" width="0.127" layer="21"/>
 <wire x1="-27" y1="-18.25" x2="-27" y2="18.25" width="0.127" layer="21"/>
 <rectangle x1="-29" y1="-20.25" x2="29" y2="20.25" layer="39"/>
-<smd name="P$1" x="23" y="-0.25" dx="5" dy="10" layer="1" rot="R180" cream="no"/>
 <smd name="P$2" x="-23" y="-14" dx="5" dy="5" layer="1" rot="R180" cream="no"/>
 <smd name="P$3" x="-23" y="14" dx="5" dy="5" layer="1" rot="R180" cream="no"/>
 <polygon width="0.127" layer="21">
@@ -1328,6 +1326,8 @@
 <vertex x="-17" y="12.875"/>
 <vertex x="-18" y="13.875"/>
 </polygon>
+<smd name="P$4" x="23" y="-8" dx="5" dy="5" layer="1" cream="no"/>
+<smd name="P$5" x="23" y="8" dx="5" dy="5" layer="1" cream="no"/>
 </package>
 <package name="744031220">
 <description>pads for wurth inductor</description>
@@ -2314,7 +2314,7 @@
 <devices>
 <device name="" package="SOLAR_CELL_37X54MM">
 <connects>
-<connect gate="G$1" pin="GND" pad="P$1"/>
+<connect gate="G$1" pin="GND" pad="P$4 P$5"/>
 <connect gate="G$1" pin="VOUT" pad="P$2 P$3"/>
 </connects>
 <technologies>

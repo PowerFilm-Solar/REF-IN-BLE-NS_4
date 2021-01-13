@@ -6,10 +6,10 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="dots" multiple="1" display="yes" altdistance="0.003125" altunitdist="mic" altunit="mm"/>
+<grid distance="0.05" unitdist="mm" unit="mm" style="dots" multiple="1" display="yes" altdistance="0.003125" altunitdist="mic" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
@@ -22,15 +22,15 @@
 <layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
@@ -77,8 +77,8 @@
 </layers>
 <board>
 <plain>
-<text x="1.9" y="56.765" size="0.85" layer="21" font="vector" ratio="10" rot="R90">REF-IN-BLE-NS 4-0</text>
-<text x="1.9" y="71.235" size="0.85" layer="21" font="vector" ratio="10" rot="R90">PowerFilm Solar</text>
+<text x="1.9" y="56.75" size="0.85" layer="21" font="vector" ratio="10" rot="R90">REF-IN-BLE-NS 4-1</text>
+<text x="1.9" y="71" size="0.85" layer="21" font="vector" ratio="10" rot="R90">PowerFilm Solar</text>
 <text x="28.4" y="11.1" size="1" layer="25" font="vector">U1</text>
 <wire x1="2.5" y1="22.5" x2="2.5" y2="7.5" width="0.3" layer="21" style="shortdash"/>
 <wire x1="2.5" y1="7.5" x2="15.5" y2="7.5" width="0.3" layer="21" style="shortdash"/>
@@ -95,7 +95,7 @@
 <text x="3.55" y="11.8" size="1.016" layer="22" font="vector" rot="MR0">CFG1</text>
 <text x="3.65" y="7.5" size="1.016" layer="22" font="vector" rot="MR0">CFG2</text>
 <text x="3.6" y="16" size="1.016" layer="22" font="vector" rot="MR0">CFG0</text>
-<text x="15.3" y="15.1" size="1.016" layer="22" font="vector" rot="MR90">ENHV</text>
+<text x="12.3" y="15.15" size="1.016" layer="22" font="vector" rot="MR90">ENHV</text>
 <text x="7.55" y="15.1" size="1.016" layer="22" font="vector" rot="MR90">ENLV</text>
 <text x="22.3" y="19.3" size="1.016" layer="22" font="vector" rot="R180">ENBAL</text>
 <hole x="4" y="2" drill="2.2"/>
@@ -3023,7 +3023,7 @@ w/ Nordic BLE and E-peas Energy Harvester</text>
 <text x="23.8" y="23.6" size="1.016" layer="22" font="vector" rot="MR270">S2</text>
 <text x="21.2" y="23.6" size="1.016" layer="22" font="vector" rot="MR270">S1</text>
 <text x="18.6" y="23.6" size="1.016" layer="22" font="vector" rot="MR270">S0</text>
-<text x="1.2" y="5.6" size="0.85" layer="21" font="vector" ratio="10">REF-IN-BLE-NS 4-0</text>
+<text x="1.2" y="5.6" size="0.85" layer="21" font="vector" ratio="10">REF-IN-BLE-NS 4-1</text>
 <text x="1.2" y="3.8" size="0.85" layer="21" font="vector" ratio="10">PowerFilm Solar</text>
 <rectangle x1="13.1123" y1="35.1193" x2="14.7887" y2="35.132" layer="22" rot="R270"/>
 <rectangle x1="13.6965" y1="36.7703" x2="14.1791" y2="36.783" layer="22" rot="R270"/>
@@ -5742,6 +5742,9 @@ w/ Nordic BLE and E-peas Energy Harvester</text>
 <wire x1="31.5" y1="28" x2="31.5" y2="25.5" width="0" layer="20"/>
 <wire x1="31.5" y1="25.5" x2="12.5" y2="25.5" width="0" layer="20"/>
 <wire x1="12.5" y1="25.5" x2="12.5" y2="28" width="0" layer="20"/>
+<text x="18" y="6.9" size="0.8128" layer="21" font="vector">LED3</text>
+<text x="23.7" y="2.5" size="0.8128" layer="21" font="vector">BUTTON1</text>
+<text x="40.75" y="6.95" size="0.8128" layer="21" font="vector" rot="R90">nRF Blinky</text>
 </plain>
 <libraries>
 <library name="00_PF_Nordic">
@@ -6727,8 +6730,8 @@ w/ Nordic BLE and E-peas Energy Harvester</text>
 <smd name="IN0" x="0.05" y="0.10625" dx="0.127" dy="0.127" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
 <smd name="IN1" x="0.05" y="3.64375" dx="0.127" dy="0.127" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
 <smd name="OUT" x="-0.9375" y="1.875" dx="0.127" dy="0.127" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
-<text x="-1.5125" y="2.1875" size="1.27" layer="21">1</text>
-<text x="-1.5125" y="0.15625" size="1.27" layer="21">0</text>
+<text x="-1.5125" y="2.1875" size="1.27" layer="21" font="vector">1</text>
+<text x="-1.5125" y="0.15625" size="1.27" layer="21" font="vector">0</text>
 <polygon width="0.127" layer="1">
 <vertex x="-0.05" y="0.3"/>
 <vertex x="0.15" y="0.3"/>
@@ -6922,8 +6925,7 @@ w/ Nordic BLE and E-peas Energy Harvester</text>
 <wire x1="20" y1="16.875" x2="26" y2="16.875" width="0.127" layer="21"/>
 <wire x1="-26" y1="16.875" x2="-20" y2="16.875" width="0.127" layer="21"/>
 <wire x1="-26" y1="-17" x2="-20" y2="-17" width="0.127" layer="21"/>
-<wire x1="23.25" y1="-12.125" x2="23.25" y2="-9.125" width="0.127" layer="21"/>
-<wire x1="23.125" y1="8.75" x2="23.125" y2="11.75" width="0.127" layer="21"/>
+<wire x1="23.25" y1="1.5" x2="23.25" y2="-1.5" width="0.127" layer="21"/>
 <wire x1="-18" y1="16.875" x2="-18" y2="13.875" width="0.127" layer="21"/>
 <wire x1="-18" y1="13.875" x2="-18" y2="11.875" width="0.127" layer="21"/>
 <wire x1="-18" y1="11.875" x2="-18" y2="8.875" width="0.127" layer="21"/>
@@ -6965,7 +6967,6 @@ w/ Nordic BLE and E-peas Energy Harvester</text>
 <wire x1="27" y1="-18.25" x2="-27" y2="-18.25" width="0.127" layer="21"/>
 <wire x1="-27" y1="-18.25" x2="-27" y2="18.25" width="0.127" layer="21"/>
 <rectangle x1="-29" y1="-20.25" x2="29" y2="20.25" layer="39"/>
-<smd name="P$1" x="23" y="-0.25" dx="5" dy="10" layer="1" rot="R180" cream="no"/>
 <smd name="P$2" x="-23" y="-14" dx="5" dy="5" layer="1" rot="R180" cream="no"/>
 <smd name="P$3" x="-23" y="14" dx="5" dy="5" layer="1" rot="R180" cream="no"/>
 <polygon width="0.127" layer="21">
@@ -6998,6 +6999,8 @@ w/ Nordic BLE and E-peas Energy Harvester</text>
 <vertex x="-17" y="12.875"/>
 <vertex x="-18" y="13.875"/>
 </polygon>
+<smd name="P$4" x="23" y="-8" dx="5" dy="5" layer="1" cream="no"/>
+<smd name="P$5" x="23" y="8" dx="5" dy="5" layer="1" cream="no"/>
 </package>
 <package name="744031220">
 <description>pads for wurth inductor</description>
@@ -8445,7 +8448,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 &lt;p&gt;
 Please make sure your boards conform to these design rules.
 &lt;/p&gt;</description>
-<param name="layerSetup" value="(1*16)"/>
+<param name="layerSetup" value="(1*2+15*16)"/>
 <param name="mtCopper" value="0.035559375mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.035559375mm"/>
 <param name="mtIsolate" value="1.6mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm"/>
 <param name="mdWireWire" value="5mil"/>
@@ -9137,7 +9140,7 @@ Please make sure your boards conform to these design rules.
 <contactref element="U2" pad="8"/>
 <contactref element="U2" pad="7"/>
 <contactref element="R9" pad="2"/>
-<contactref element="U$7" pad="P$1"/>
+<contactref element="U$7" pad="P$4"/>
 <contactref element="U$2" pad="IN0"/>
 <contactref element="U$4" pad="IN0"/>
 <contactref element="U$5" pad="IN0"/>
@@ -9289,6 +9292,25 @@ Please make sure your boards conform to these design rules.
 <via x="36.9625" y="29" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="16.1" y="12.75" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="23.55" y="20.5" extent="1-16" drill="0.3" diameter="0.6"/>
+<polygon width="0" layer="2" rank="2">
+<vertex x="0" y="0"/>
+<vertex x="37.35" y="0"/>
+<vertex x="37.35" y="25.45"/>
+<vertex x="44" y="25.5"/>
+<vertex x="44" y="93.5"/>
+<vertex x="0" y="93.5"/>
+</polygon>
+<polygon width="0" layer="15">
+<vertex x="0" y="0"/>
+<vertex x="37.35" y="0"/>
+<vertex x="37.35" y="25.5"/>
+<vertex x="44" y="25.5"/>
+<vertex x="44" y="93.5"/>
+<vertex x="0" y="93.5"/>
+</polygon>
+<contactref element="U$7" pad="P$5"/>
+<via x="34.8" y="15.3" extent="1-16" drill="0.3" diameter="0.6"/>
+<via x="29.4" y="18.05" extent="1-16" drill="0.3" diameter="0.6"/>
 </signal>
 <signal name="N$5">
 <contactref element="U1" pad="1"/>
@@ -10198,6 +10220,36 @@ Please make sure your boards conform to these design rules.
 <vertex x="10.5" y="27.75"/>
 <vertex x="10.5" y="29.75"/>
 <vertex x="8" y="29.75"/>
+</polygon>
+</signal>
+<signal name="N$33">
+<polygon width="0" layer="2" pour="cutout">
+<vertex x="8" y="25.5"/>
+<vertex x="12.5" y="25.5"/>
+<vertex x="12.5" y="28"/>
+<vertex x="8" y="28"/>
+</polygon>
+<polygon width="0" layer="2" pour="cutout">
+<vertex x="31.5" y="25.5"/>
+<vertex x="36" y="25.5"/>
+<vertex x="36" y="28"/>
+<vertex x="31.5" y="28"/>
+</polygon>
+</signal>
+<signal name="N$35">
+<polygon width="0" layer="15" pour="cutout">
+<vertex x="8" y="28"/>
+<vertex x="12.5" y="28"/>
+<vertex x="12.5" y="25.5"/>
+<vertex x="8" y="25.5"/>
+</polygon>
+</signal>
+<signal name="N$39">
+<polygon width="0" layer="15" pour="cutout">
+<vertex x="31.5" y="28"/>
+<vertex x="36" y="28"/>
+<vertex x="36" y="25.5"/>
+<vertex x="31.5" y="25.5"/>
 </polygon>
 </signal>
 </signals>
