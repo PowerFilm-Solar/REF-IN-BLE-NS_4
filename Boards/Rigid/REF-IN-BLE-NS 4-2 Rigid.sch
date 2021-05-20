@@ -8472,11 +8472,11 @@ In this library the device names are the same as the pin names of the symbols, t
 </classes>
 <parts>
 <part name="U1" library="00_PF_Nordic" deviceset="NRF52832_10QFN48" device=""/>
-<part name="C1" library="resistor" deviceset="C-US" device="C0603" technology="T-12PF" value="9pF"/>
+<part name="C1" library="resistor" deviceset="C-US" device="C0603" technology="T-12PF" value="12pF"/>
 <part name="L3" library="00_PF_Nordic" deviceset="L0603" device="" technology="V-15NH" value="15nH"/>
 <part name="L2" library="00_PF_Nordic" deviceset="L0603" device="" technology="V-10UH" value="10uH"/>
 <part name="L1" library="00_PF_Nordic" deviceset="L0603" device="" technology="V-3.9NH" value="3.9nH"/>
-<part name="C2" library="resistor" deviceset="C-US" device="C0603" technology="T-12PF" value="9pF"/>
+<part name="C2" library="resistor" deviceset="C-US" device="C0603" technology="T-12PF" value="12pF"/>
 <part name="C3" library="resistor" deviceset="C-US" device="C0603" technology="T-0.8PF" value="0.8pF"/>
 <part name="C4" library="resistor" deviceset="C-US" device="C0603" technology="T-100NF" value="100nF"/>
 <part name="C5" library="resistor" deviceset="C-US" device="C0603" technology="T-100NF" value="100nF"/>
@@ -8536,8 +8536,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="R12" library="resistor" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="G19" library="supply2" deviceset="PE" device="" value="GND"/>
 <part name="U$11" library="00_PF_Nordic" deviceset="SOLDER_BRIGDE" device="CLOSED" value=""/>
-<part name="C17" library="resistor" deviceset="C-US" device="C0603" technology="T-12PF" value="9pF"/>
-<part name="C18" library="resistor" deviceset="C-US" device="C0603" technology="T-12PF" value="9pF"/>
+<part name="C17" library="resistor" deviceset="C-US" device="C0603" technology="T-12PF" value="12pF"/>
+<part name="C18" library="resistor" deviceset="C-US" device="C0603" technology="T-12PF" value="12pF"/>
 <part name="G20" library="supply2" deviceset="PE" device="" value="GND"/>
 <part name="X2" library="00_PF_Nordic" deviceset="FC-135_32.7680KA-AC" device="" value="32.768 kHz"/>
 <part name="U$12" library="00_PF_Nordic" deviceset="1MM_PAD" device="" value="N/A"/>

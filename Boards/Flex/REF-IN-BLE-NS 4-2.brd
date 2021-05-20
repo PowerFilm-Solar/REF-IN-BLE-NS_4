@@ -8145,7 +8145,7 @@ Please make sure your boards conform to these design rules.
 </autorouter>
 <elements>
 <element name="AE1" library="00_PF_Nordic" package="BLE_ANTENNA_NORDIC_FLIPPED" value="2.4GHZ_ANTENNAFLIPPED" x="37.375" y="13.3" smashed="yes" rot="R270"/>
-<element name="C1" library="resistor" package="C0603" value="9pF" x="35.2" y="19.81" smashed="yes" rot="R90">
+<element name="C1" library="resistor" package="C0603" value="12pF" x="35.2" y="19.81" smashed="yes" rot="R90">
 <attribute name="NAME" x="35.765" y="18.775" size="1" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" value="12pF" x="37.105" y="19.175" size="1.27" layer="27" rot="R90"/>
 <attribute name="PERCENTAGE" value="5%" x="35.2" y="19.81" size="1.778" layer="27" rot="R90" display="off"/>
@@ -8157,7 +8157,7 @@ Please make sure your boards conform to these design rules.
 <attribute name="PERCENTAGE" value="10%" x="28.86" y="17.19" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFG_PART#" value="CL10A105KP8NNNC " x="28.86" y="17.19" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C2" library="resistor" package="C0603" value="9pF" x="32.9" y="19.8" smashed="yes">
+<element name="C2" library="resistor" package="C0603" value="12pF" x="32.9" y="19.8" smashed="yes">
 <attribute name="NAME" x="32.065" y="19.335" size="1" layer="25" font="vector"/>
 <attribute name="VALUE" value="12pF" x="32.265" y="17.895" size="1.27" layer="27"/>
 <attribute name="PERCENTAGE" value="5%" x="32.9" y="19.8" size="1.778" layer="27" display="off"/>
@@ -8348,14 +8348,14 @@ Please make sure your boards conform to these design rules.
 <attribute name="PERCENTAGE" value="" x="20.5" y="20.2" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFG_PART#" value="" x="20.5" y="20.2" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="C17" library="resistor" package="C0603" value="9pF" x="20.71" y="14.63" smashed="yes" rot="R90">
+<element name="C17" library="resistor" package="C0603" value="12pF" x="20.71" y="14.63" smashed="yes" rot="R90">
 <attribute name="PERCENTAGE" value="5%" x="20.71" y="14.63" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFG_PART#" value="C0603C120J5GACTU" x="20.71" y="14.63" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" value="12pF" x="20.71" y="14.63" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="20.925" y="13.845" size="0.7" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="22.615" y="13.995" size="0.7" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="C18" library="resistor" package="C0603" value="9pF" x="20.69" y="11.42" smashed="yes" rot="R270">
+<element name="C18" library="resistor" package="C0603" value="12pF" x="20.69" y="11.42" smashed="yes" rot="R270">
 <attribute name="PERCENTAGE" value="5%" x="20.69" y="11.42" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFG_PART#" value="C0603C120J5GACTU" x="20.69" y="11.42" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" value="12pF" x="20.69" y="11.42" size="1.778" layer="27" rot="R270" display="off"/>
